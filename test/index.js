@@ -3,6 +3,10 @@ import Minimist from 'minimist';
 import Mocha from 'mocha';
 import Glob from 'glob';
 import './utils/dom';
+import Enzyme from 'enzyme';
+import Adapter from 'enzyme-adapter-react-16';
+
+Enzyme.configure({adapter: new Adapter()});
 
 const argv = Minimist(process.argv.slice(2), {
   alias: {

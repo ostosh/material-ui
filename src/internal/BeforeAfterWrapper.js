@@ -1,5 +1,5 @@
-import React, {Component, PropTypes} from 'react';
-
+import React, {Component} from 'react';
+import PropTypes from 'prop-types';
 /**
  *  BeforeAfterWrapper
  *    An alternative for the ::before and ::after css pseudo-elements for
